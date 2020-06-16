@@ -72,6 +72,7 @@ var status = $(this)
 var index = $(this)
   .closest(".list-group-item")
   .index();
+  
 // recreate p element
 var taskP = $("<p>")
   .addClass("m-1")
